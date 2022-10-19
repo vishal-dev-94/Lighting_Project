@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lighting product</title>
+    <link rel="stylesheet" href="/light.css" />
+  </head>
+  <body>
+    <div class="hero" id="changeTheme">
+      <nav>
+        <img src="/menu.png" class="menu-img" alt="" />
+        <img src="/logo.png" class="logo" alt="" />
+        <ul>
+          <li><a href=""> Latest </a></li>
+          <li><a href=""> Modern </a></li>
+          <li><a href=""> Contemporary </a></li>
+          <li><a href=""> Affordable </a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn1()" id="btn1">
+          <span></span>
+        </button>
+        <p class="turnon">
+          Turn <br />
+          On
+        </p>
+        <!-- second button to change the theme -->
+        <button type="button" onclick="toggleBtn2()" id="btn2" class="button2">
+          <span></span>
+        </button>
+        <p class="changetheme">
+          Change <br />
+          theme
+        </p>
+      </nav>
+
+      <div class="lamp-container">
+        <img src="/lamp.png" class="lamp" />
+        <img src="/light.png" class="light" id="light" />
+      </div>
+      <div class="text-container">
+        <h1>
+          Latest <br />
+          In Lighting
+        </h1>
+        <p>
+          This is the first lamp from our company. we are making a huge
+          collection of modern Lamps in all categories from home use to office
+          use.
+        </p>
+        <a href="">Check All Collections</a>
+        <div class="control">
+          <p>04</p>
+          <div class="line">
+            <span></span>
+          </div>
+          <p>05</p>
+        </div>
+      </div>
+    </div>
+    <script src="/light.js"></script>
+  </body>
+</html>
